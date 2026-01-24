@@ -241,111 +241,208 @@ function toggleOfficeCup() {
 }
 
 function closePenFlash() {
-  const section = document.getElementById("pen-flash");
+  const section = document.getElementById('pen-flash');
+  const target = document.getElementById('pen-flash-section');
+
   section.style.display = "none";
+
+  target.scrollIntoView({ behavior: "smooth" });
 }
 
 function closeRubber(){
-  const section = document.getElementById('rubber-flash')
+  const section = document.getElementById('rubber-flash');
+  const target = document.getElementById('rubber-flash-section');
+
   section.style.display = "none";
+
+  target.getElementById({ behavior: "smooth" });
 }
 
 function closeBluetoothSpeaker(){
-  const section = document.getElementById('bluetooth-speaker')
+  const section = document.getElementById('bluetooth-speaker');
+  const target = document.getElementById('bluetooth-speaker-section');
+
   section.style.display = "none";
+
+  target.scrollIntoView({ behavior: "smooth" });
 }
 
 function closeBluetoothHeadset(){
-  const section = document.getElementById('bluetooth-headset')
+  const section = document.getElementById('bluetooth-headset');
+  const target = document.getElementById('bluetooth-headset-section');
+
   section.style.display = "none";
+
+  target.scrollIntoView({ behavior: "smooth" });
 }
 
 function closePackaging(){
-  const section = document.getElementById('packaging')
+  const section = document.getElementById('packaging');
+  const target = document.getElementById('packaging-section');
+
   section.style.display = "none";
+
+  target.scrollIntoView({ behavior: "smooth" });
 }
 
 function closeAluminiumBottle(){
-  const section = document.getElementById('aluminium-bottle')
+  const section = document.getElementById('aluminium-bottle');
+  const target = document.getElementById('aluminium-bottle-section');
+
   section.style.display = "none";
+
+  target.scrollIntoView({ behavior: "smooth" })
 }
 
 function closeOfficeCup(){
-  const section = document.getElementById('office-cup')
+  const section = document.getElementById('office-cup');
+  const target = document.getElementById('office-cup-section');
+
   section.style.display = "none";
+
+  target.scrollIntoView({ behavior: "smooth" });
 }
 
 function closeFoodAccesorries(){
-  const section = document.getElementById('food-accesorries')
+  const section = document.getElementById('food-accesorries');
+  const target = document.getElementById('food-accesorries-section');
+
   section.style.display = "none";
+
+  target.scrollIntoView({ behavior: "smooth" });
 }
 
 function closeShirt(){
-  const section = document.getElementById('shirt-custom')
+  const section = document.getElementById('shirt-custom');
+  const target = document.getElementById('shirt-custom-section');
+
   section.style.display = "none";
+
+  target.scrollIntoView({ behavior: "smooth" });
 }
 
 function closeOuterwear(){
-  const section = document.getElementById('outerwear-custom')
+  const section = document.getElementById('outerwear-custom');
+  const target = document.getElementById('outerwear-custom-section');
+  
   section.style.display = "none";
+
+  target.scrollIntoView({ behavior: "smooth" });
 }
 
 function closeHeadwear(){
-  const section = document.getElementById('headwear-custom')
+  const section = document.getElementById('headwear-custom');
+  const target = document.getElementById('headwear-custom-section');
+
   section.style.display = "none";
+
+  target.scrollIntoView({ behavior: "smooth" });
 }
 
 function closeHolder(){
-  const section = document.getElementById('holder-custom')
+  const section = document.getElementById('holder-custom');
+  const target = document.getElementById('holder-custom-setion');
+
   section.style.display = "none";
+
+  target.scrollIntoView({ behavior: "smooth" });
 }
 
 function closeFunctional(){
-  const section = document.getElementById('functional-products')
+  const section = document.getElementById('functional-products');
+  const target = document.getElementById('functional-products-section');
+
   section.style.display = "none";
+
+  target.scrollIntoView({ behavior: "smooth" });
 }
 
 function closePlasticPen(){
-  const section = document.getElementById('plastic-pen')
+  const section = document.getElementById('plastic-pen');
+  const target = document.getElementById('plastic-pen-section');
+
   section.style.display = "none";
+
+  target.scrollIntoView({ behavior: "smooth" });
 }
 
 function closeMetalPen(){
-  const section = document.getElementById('metal-pen')
+  const section = document.getElementById('metal-pen');
+  const target = document.getElementById('metal-pen-section');
+
   section.style.display = "none";
+
+  target.scrollIntoView({ behavior: "smooth" });
 }
 
 function closeUmbrella(){
-  const section = document.getElementById('umbrella')
+  const section = document.getElementById('umbrella');
+  const target = document.getElementById('umbrella-section');
+
   section.style.display = "none";
+
+  target.scrollIntoView({ behavior: "smooth" });
 }
 
 function closeClock(){
-  const section = document.getElementById('clock')
+  const section = document.getElementById('clock');
+  const target = document.getElementById('clock-section');
+
   section.style.display = "none";
+
+  target.scrollIntoView({ behavior: "smooth" });
 }
 
 function closeIdCard(){
-  const section = document.getElementById('id-card')
+  const section = document.getElementById('id-card');
+  const target = document.getElementById('id-card-section');
+
   section.style.display = "none";
+
+  target.scrollIntoView({ behavior: "smooth" });
 }
 
 function closePinKeychain(){
-  const section = document.getElementById('pin-keychain')
+  const section = document.getElementById('pin-keychain');
+  const target = document.getElementById('pin-keychain-section');
+
   section.style.display = "none";
+
+  target.scrollIntoView({ behavior: "smooth" });
 }
 
 function closePrintProducts(){
-  const section = document.getElementById('print-products')
+  const section = document.getElementById('print-products');
+  const target = document.getElementById('print-products-section');
+
   section.style.display = "none";
+
+  target.scrollIntoView({ behavior: "smooth" });
 }
 
 function closeSlipperProducts(){
-  const section = document.getElementById('slipper-products')
+  const section = document.getElementById('slipper-products');
+  const target = document.getElementById('slipper-products-section');
+
   section.style.display = "none";
+
+  target.scrollIntoView({ behavior: "smooth" });
 }
 
-function closeAccesorries(){
-  const section = document.getElementById('accesorries')
+function closeAccesorries() {
+  const section = document.getElementById('accesorries');
+  const target = document.getElementById('accesorries-section');
+
   section.style.display = "none";
+
+  target.scrollIntoView({ behavior: "smooth" });
+}
+
+function closeOfficeCup() {
+  const section = document.getElementById('office-cup');
+  const target = document.getElementById('office-cup-section');
+
+  section.style.display = "none";
+
+  target.scrollIntoView({ behavior: "smooth" });
 }
