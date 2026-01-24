@@ -1,0 +1,175 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+.card-title {
+    font-size: 20px;
+}
+
+.card-body-title {
+    font-size: 24px;
+}
+
+.p-clients {
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.card-text {
+    font-size: 12px;
+}
+
+footer ul li {
+  margin-bottom: 6px;
+}
+
+.section-divider {
+  width: 100%;
+  height: 1px;
+  background-color: #d1d1d1;
+}
+
+.product-section {
+    background: url('img/wood-bg.webp') center / cover no-repeat;
+    padding: 10px 0;
+    overflow: visible;
+    position: relative;
+}
+
+.product-card {
+  position: relative;
+  min-height: 360px;   /* tinggi section tetap */
+  overflow: visible;   /* supaya gambar tidak terpotong */
+}
+
+.product-image {
+  position: absolute;
+  left: -350px;
+  bottom: -220px;
+  max-height: 1000px;
+  height: 500px;
+
+  object-fit: contain;
+  z-index: 5;
+
+  transform: rotate(30deg);
+  transform-origin: bottom right;
+}
+
+.product-title {
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.product-sub {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+.product-title-bottle {
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.product-sub-bottle {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  .product-card {
+    min-height: 260px;
+  }
+
+  .product-image {
+    left: -250px; 
+    bottom: -140px;
+
+    height: 330px;
+    max-height: none;
+
+    transform: rotate(30deg);
+  }
+
+  .product-title, .product-sub {
+    margin-left: 15px;
+  }
+
+  .product-title-bottle, .product-sub-bottle {
+    margin-left: 85px;
+  }
+}
+
+
+.yoyo-card {
+    position: relative;
+}
+
+.yoyo-img {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 280px;
+}
+
+.yoyo-title {
+    margin-top: 270px;
+}
+
+.lunchbox {
+  position: relative;
+  overflow: visible;
+}
+
+/* IMAGE */
+.lunchbox-img {
+  position: absolute;
+  right: -10px;        /* lebih dekat ke teks */
+  top: 50%;
+  transform: translateY(-50%);
+  height: 450px;
+  max-height: 560px;
+  object-fit: contain;
+  z-index: 2;
+}
+
+
+.center-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+  max-width: 180px;
+
+  z-index: 2;
+}
+
+  #functional-products, 
+  #pen-flash, 
+  #plastic-pen, 
+  #rubber-flash, 
+  #bluetooth-speaker, 
+  #bluetooth-headset,
+  #shirt-custom, 
+  #outerwear-custom,
+  #headwear-custom,
+  #holder-custom,
+  #metal-pen,
+  #umbrella,
+  #clock,
+  #id-card,
+  #pin-keychain,
+  #print-products,
+  #slipper-products,
+  #packaging,
+  #food-accesorries,
+  #aluminium-bottle,
+  #office-cup{
+    display: none;
+  }
