@@ -105,8 +105,9 @@ footer ul li {
 }
 
 
-.yoyo-card {
+/* .yoyo-card {
     position: relative;
+    min-height: 350px;
 }
 
 .yoyo-img {
@@ -114,12 +115,16 @@ footer ul li {
     top: 15px;
     left: 50%;
     transform: translateX(-50%);
-    max-width: 280px;
+    max-width: 250px;
 }
 
-.yoyo-title {
-    margin-top: 270px;
-}
+.yoyo-text {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    text-align: left;
+} */
+
 
 .lunchbox {
   position: relative;

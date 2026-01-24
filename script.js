@@ -53,8 +53,8 @@ function toggleRubber() {
   }
 }
 
-function toggleBluetoothSpeaker() {
-  const section = document.getElementById('bluetooth-speaker');
+function toggleAccesorries() {
+  const section = document.getElementById('accesorries');
 
   if (section.style.display === 'none' || section.style.display === '') {
     section.style.display = 'block';
@@ -342,5 +342,10 @@ function closePrintProducts(){
 
 function closeSlipperProducts(){
   const section = document.getElementById('slipper-products')
+  section.style.display = "none";
+}
+
+function closeAccesorries(){
+  const section = document.getElementById('accesorries')
   section.style.display = "none";
 }
