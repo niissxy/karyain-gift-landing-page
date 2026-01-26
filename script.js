@@ -255,7 +255,7 @@ function closeRubber(){
 
   section.style.display = "none";
 
-  target.getElementById({ behavior: "smooth" });
+  target.scrollIntoView({ behavior: "smooth" });
 }
 
 function closeBluetoothSpeaker(){
