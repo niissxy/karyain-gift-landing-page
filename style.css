@@ -18,7 +18,7 @@ body {
 }
 
 .card-text {
-    font-size: 16px;
+    font-size: 12px;
 }
 
 footer ul li {
@@ -65,7 +65,7 @@ footer ul li {
 }
 
 .product-sub {
-    font-size: 14px;
+    font-size: 12px;
     opacity: 0.9;
 }
 
