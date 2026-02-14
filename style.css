@@ -179,3 +179,15 @@ footer ul li {
   #accesorries{
     display: none;
   }
+
+  .hero-card {
+    height: 100vh;
+    border: 0;
+    overflow: hidden;
+  }
+
+  .hero-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;    /* tidak terpotong */
+  }
