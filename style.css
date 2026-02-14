@@ -80,92 +80,39 @@ footer ul li {
     opacity: 0.9;
 }
 
-/* ===== MOBILE FIX ===== */
 @media (max-width: 768px) {
-
-  /* HERO SECTION */
-  #hero-section {
-    width: 100%;       /* jangan gunakan 100vw + margin negatif */
-    margin-left: 0;
-    overflow-x: hidden;
-  }
-
-  #hero-section .container {
-    padding-left: 15px; 
-    padding-right: 15px;
-  }
-
-  #hero-section .row {
-    --bs-gutter-x: 0;
-  }
-
-  #hero-section img.hero-img {
-    width: 100%;
-    height: auto;
-    display: block;
-    object-fit: cover;
-  }
-
-  .hero-text {
-    position: absolute;
-    bottom: 20px;
-    left: 15px;
-    right: 15px;           /* pastikan tidak keluar layar */
-    padding: 10px;
-    background: rgba(255, 255, 255, 0.5); /* optional: biar teks jelas */
-    border-radius: 6px;
-    box-sizing: border-box;
-  }
-
-  .hero-title {
-    font-size: 1.5rem;
-    line-height: 1.2;
-    bottom: 10px;
-    left: 15px;
-    right: 15px;
-    color: rgb(61, 60, 60);
-  }
-
-  /* PRODUCT CARD */
   .product-card {
-    min-height: 220px; /* lebih ramping di mobile */
+    min-height: 260px;
   }
 
   .product-image {
-    left: -30px;       /* lebih aman, jangan negatif besar */
-    bottom: -50px;
-    height: 220px;     
-    max-width: 90%;
-    transform: rotate(20deg);
+    left: -250px; 
+    bottom: -140px;
+
+    height: 330px;
+    max-height: none;
+
+    transform: rotate(30deg);
   }
 
-  .product-title, .product-sub,
+  .product-title, .product-sub {
+    margin-left: 15px;
+  }
+
   .product-title-bottle, .product-sub-bottle {
-    margin-left: 15px; /* hindari margin besar */
-    font-size: smaller;
+    margin-left: 85px;
   }
 
-  /* LUNCHBOX IMAGE */
-  .lunchbox-img {
-    right: 0;          /* jangan negatif */
-    top: 50%;
-    transform: translateY(-50%);
-    max-width: 90%;
-    height: auto;
-    object-fit: contain;
+ .hero-text {
+    bottom: 20px;
+    left: 20px;
   }
 
-  /* CENTER IMAGE */
-  .center-img {
-    max-width: 120px;  /* sesuaikan ukuran mobile */
+  .hero-title {
+    font-size: 1.8rem;
   }
-
-  /* Hapus scroll horizontal body */
-  body {
-    overflow-x: hidden;
-  }
-
 }
+
 
 /* .yoyo-card {
     position: relative;
