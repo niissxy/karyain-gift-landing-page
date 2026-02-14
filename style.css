@@ -193,7 +193,6 @@ footer ul li {
   width: 100%;
   height: auto;
   display: block;
-  /* opacity: 0.7; */
 }
 
 /* text di atas gambar */
@@ -201,7 +200,6 @@ footer ul li {
   position: absolute;
   bottom: 40px;
   left: 40px;
-  margin: 0;
 }
 
 /* HERO FULL WIDTH TANPA JARAK */
