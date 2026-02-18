@@ -96,7 +96,7 @@ footer ul li {
   }
 
   .product-title, .product-sub {
-    margin-left: 15px;
+    margin-left: 8px;
   }
 
   .product-title-bottle, .product-sub-bottle {
@@ -104,12 +104,25 @@ footer ul li {
   }
 
  .hero-text {
-    bottom: 20px;
-    left: 20px;
+    margin-bottom: -30px;
+    margin-left: -50px;
+  }
+
+  .hero-title,
+  .hero-p {
+    margin-left: 0;   /* biar sejajar */
   }
 
   .hero-title {
     font-size: 1.8rem;
+  }
+
+  .p-clients {
+    text-align: center;        /* jangan justify di mobile */
+    font-size: 14px;
+    line-height: 1.6;
+    padding: 0 16px;        /* kasih ruang kiri kanan */
+    max-width: 100%;
   }
 }
 
@@ -193,6 +206,7 @@ footer ul li {
   width: 100%;
   height: auto;
   display: block;
+  opacity: 0.75;
 }
 
 /* text di atas gambar */
@@ -234,4 +248,14 @@ footer ul li {
   bottom: 40px;
   left: 40px;
   color: rgb(61, 60, 60);
+}
+
+.hero-p {
+  margin-left: 40px;
+}
+
+.p-clients {
+  font-size: 14px;
+  margin-left: 0;
+  margin-right: 0;
 }
