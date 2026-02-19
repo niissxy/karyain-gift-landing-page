@@ -341,7 +341,7 @@ function closeHeadwear(){
 
 function closeHolder(){
   const section = document.getElementById('holder-custom');
-  const target = document.getElementById('holder-custom-setion');
+  const target = document.getElementById('holder-custom-section');
 
   section.style.display = "none";
 
@@ -350,7 +350,7 @@ function closeHolder(){
 
 function closeFunctional(){
   const section = document.getElementById('functional-products');
-  const target = document.getElementById('functional-products-section');
+  const target = document.getElementById('functional-section');
 
   section.style.display = "none";
 
