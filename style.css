@@ -16,6 +16,21 @@ body {
     font-size: 24px;
 }
 
+.card-product {
+  transition: all 0.3s ease;
+}
+
+.card-product:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.card-product:active,
+.card-product:focus{
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
 .p-clients {
     text-align: center;
     margin-left: 100px;
