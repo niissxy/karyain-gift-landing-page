@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -107,6 +108,10 @@ footer ul li {
     margin-left: 85px;
   }
 
+  .product-title-bottle {
+    font-size: 28px;
+  }
+
  .hero-text {
     margin-bottom: -30px;
     margin-left: -50px;
@@ -128,6 +133,10 @@ footer ul li {
     padding: 0 16px;        /* kasih ruang kiri kanan */
     max-width: 100%;
   }
+
+  /* .p-why {
+    font-size: 14px;
+  } */
 }
 
 
@@ -270,4 +279,34 @@ footer ul li {
 
 .card-how-p {
   font-size: 14px;
+}
+
+.p-why {
+  font-size: 16px;
+}
+
+.card-why {
+  transition: all 0.3s ease;
+}
+
+.card-why:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* animasi icon */
+.card-why i {
+  transition: transform 0.3s ease;
+}
+
+.card-why:hover i {
+  transform: scale(1.2) rotate(0deg);
+}
+
+.footer-social a {
+  text-decoration: none;
+}
+
+.footer-social img {
+  display: inline-block;
 }
