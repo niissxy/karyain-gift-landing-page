@@ -318,6 +318,21 @@ footer ul li {
   transform: scale(1.2) rotate(0deg);
 }
 
+.img-about {
+  transition: all 0.3s ease;
+}
+
+.img-about:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.img-about:active,
+.img-about:focus{
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
 .footer-social a {
   text-decoration: none;
 }
