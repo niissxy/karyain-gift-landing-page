@@ -446,3 +446,13 @@ function closeOfficeCup() {
 
   target.scrollIntoView({ behavior: "smooth" });
 }
+
+function toggleDaftarIsi() {
+  const daftarIsi = document.getElementById("daftarIsi");
+
+  if (daftarIsi.style.display === "none") {
+    daftarIsi.style.display = "block";
+  } else {
+    daftarIsi.style.display = "none";
+  }
+}

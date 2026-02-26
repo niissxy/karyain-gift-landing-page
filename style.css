@@ -152,6 +152,10 @@ footer ul li {
   /* .p-why {
     font-size: 14px;
   } */
+
+  /* #daftarIsi {
+    display: none;
+  } */
 }
 
 
@@ -339,4 +343,9 @@ footer ul li {
 
 .footer-social img {
   display: inline-block;
+}
+
+.list-blog-link{
+  text-decoration: none;
+  color: gray;
 }
