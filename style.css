@@ -345,7 +345,21 @@ footer ul li {
   display: inline-block;
 }
 
-.list-blog-link{
+.list-blog-link {
   text-decoration: none;
   color: gray;
+}
+
+.list-blog {
+  width: 320px;
+  border-radius: 5px;
+}
+
+.sub-title {
+  margin-left: 40px;
+}
+
+.sub-paragraph {
+  margin-left: 40px;
+  font-size: 14px;
 }
