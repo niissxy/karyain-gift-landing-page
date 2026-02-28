@@ -337,6 +337,21 @@ footer ul li {
   box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 }
 
+.card-testimonial {
+  transition: all 0.3s ease;
+}
+
+.card-testimonial:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.card-testimonial:active,
+.card-testimonial:focus{
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
 .footer-social a {
   text-decoration: none;
 }
