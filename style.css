@@ -352,6 +352,21 @@ footer ul li {
   box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 }
 
+.card-portfolio {
+  transition: all 0.3s ease;
+}
+
+.card-portfolio:hover{
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.card-portfolio:active,
+.card-portfolio:active {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
 .footer-social a {
   text-decoration: none;
 }
