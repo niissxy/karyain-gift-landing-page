@@ -149,6 +149,10 @@ footer ul li {
     max-width: 100%;
   }
 
+  .product-image-functional {
+    width: 500px;
+  }
+
   /* .p-why {
     font-size: 14px;
   } */
@@ -232,6 +236,11 @@ footer ul li {
   #office-cup,
   #accesorries{
     display: none;
+  }
+
+.product-image-functional {
+    width: 500px;
+    margin-top: 150px;
   }
 
 .hero-img {
