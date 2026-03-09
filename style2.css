@@ -51,7 +51,7 @@ body {
 }
 
 .dropdown-menu-custom li a:hover {
-  background: #f5f5f5;
+  color: #de9204;
 }
 
 /* SHOW DROPDOWN */
@@ -80,4 +80,52 @@ body {
 
 .navbar-nav .nav-link:hover::after {
   width: 100%;
+}
+
+.title-anim,
+.desc-anim,
+.desc2-anim,
+.btn-anim {
+  opacity: 0;
+}
+
+.carousel-item.active .title-anim {
+  animation: slideRight 1s forwards;
+}
+
+.carousel-item.active .desc-anim {
+  animation: slideUp 1s forwards;
+  animation-delay: 0.3s;
+}
+
+.carousel-item.active .desc2.anim {
+  animation: slideUp 1s forwards;
+  animation-delay: 0.6s;
+}
+
+.carousel-item.active .btn-anim {
+  animation: slideRight 1s forwards;
+  animation-delay: 0.9s;
+}
+
+@keyframes slideRight {
+  from {
+    opacity: 0;
+    transform: translateX(80px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

@@ -1,0 +1,424 @@
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+.card-title {
+    font-size: 20px;
+}
+
+.card-body-title {
+    font-size: 24px;
+}
+
+.card-product {
+  transition: all 0.3s ease;
+}
+
+.card-product:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.card-product:active,
+.card-product:focus{
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.p-clients {
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.card-text {
+    font-size: 12px;
+}
+
+footer ul li {
+  margin-bottom: 6px;
+}
+
+.section-divider {
+  width: 100%;
+  height: 1px;
+  background-color: #d1d1d1;
+}
+
+.product-section {
+    background: url('img/wood-bg.webp') center / cover no-repeat;
+    padding: 10px 0;
+    overflow: visible;
+    position: relative;
+}
+
+.product-card {
+  position: relative;
+  min-height: 360px;   /* tinggi section tetap */
+  overflow: visible;   /* supaya gambar tidak terpotong */
+}
+
+.product-image {
+  position: absolute;
+  left: -350px;
+  bottom: -220px;
+  max-height: 1000px;
+  height: 500px;
+
+  object-fit: contain;
+  z-index: 5;
+
+  transform: rotate(30deg);
+  transform-origin: bottom right;
+}
+
+.product-title {
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.product-sub {
+    font-size: 12px;
+    opacity: 0.9;
+}
+
+.product-title-bottle {
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.product-sub-bottle {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  .product-card {
+    min-height: 260px;
+  }
+
+  .product-image {
+    left: -250px; 
+    bottom: -140px;
+
+    height: 330px;
+    max-height: none;
+
+    transform: rotate(30deg);
+  }
+
+  .product-title, .product-sub {
+    margin-left: 8px;
+  }
+
+  .product-title-bottle, .product-sub-bottle {
+    margin-left: 85px;
+  }
+
+  .product-title-bottle {
+    font-size: 28px;
+  }
+
+ .hero-text {
+    margin-bottom: -30px;
+    margin-left: -50px;
+  }
+
+  .hero-title,
+  .hero-p {
+    margin-left: 0;   /* biar sejajar */
+  }
+
+  .hero-title {
+    font-size: 1.8rem;
+  }
+
+  .p-clients {
+    text-align: center;        /* jangan justify di mobile */
+    font-size: 14px;
+    line-height: 1.6;
+    padding: 0 16px;        /* kasih ruang kiri kanan */
+    max-width: 100%;
+  }
+
+  .product-image-functional {
+    width: 500px;
+  }
+
+  /* .p-why {
+    font-size: 14px;
+  } */
+
+  /* #daftarIsi {
+    display: none;
+  } */
+}
+
+
+/* .yoyo-card {
+    position: relative;
+    min-height: 350px;
+}
+
+.yoyo-img {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 250px;
+}
+
+.yoyo-text {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    text-align: left;
+} */
+
+
+.lunchbox {
+  position: relative;
+  overflow: visible;
+}
+
+/* IMAGE */
+.lunchbox-img {
+  position: absolute;
+  right: -10px;        /* lebih dekat ke teks */
+  top: 50%;
+  transform: translateY(-50%);
+  height: 450px;
+  max-height: 560px;
+  object-fit: contain;
+  z-index: 2;
+}
+
+
+.center-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+  max-width: 180px;
+
+  z-index: 2;
+}
+
+  #functional-products, 
+  #pen-flash, 
+  #plastic-pen, 
+  #rubber-flash, 
+  #bluetooth-speaker, 
+  #bluetooth-headset,
+  #shirt-custom, 
+  #outerwear-custom,
+  #headwear-custom,
+  #holder-custom,
+  #metal-pen,
+  #umbrella,
+  #clock,
+  #id-card,
+  #pin-keychain,
+  #print-products,
+  #slipper-products,
+  #packaging,
+  #food-accesorries,
+  #aluminium-bottle,
+  #office-cup,
+  #accesorries{
+    display: none;
+  }
+
+.product-image-functional {
+    width: 480px;
+    margin-top: 150px;
+  }
+
+.hero-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  opacity: 0.75;
+}
+
+/* text di atas gambar */
+.hero-text {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+}
+
+/* HERO FULL WIDTH TANPA JARAK */
+#hero-section {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  overflow-x: hidden;
+}
+
+/* container khusus hero */
+#hero-section .container {
+  max-width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* HILANGKAN gutter row (ini penyebab jarak kanan) */
+#hero-section .row {
+  --bs-gutter-x: 0;
+}
+
+/* image full */
+#hero-section img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* teks overlay */
+.hero-title {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  color: rgb(61, 60, 60);
+}
+
+.hero-p {
+  margin-left: 40px;
+}
+
+.p-clients {
+  font-size: 14px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.card-about-p {
+  font-size: 14px;
+}
+
+.card-how-p {
+  font-size: 14px;
+}
+
+.p-why {
+  font-size: 16px;
+}
+
+.card-why {
+  transition: all 0.3s ease;
+}
+
+.card-why:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* animasi icon */
+.card-why i {
+  transition: transform 0.3s ease;
+}
+
+.card-why:hover i {
+  transform: scale(1.2) rotate(0deg);
+}
+
+.img-about {
+  transition: all 0.3s ease;
+}
+
+.img-about:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.img-about:active,
+.img-about:focus{
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.card-testimonial {
+  transition: all 0.3s ease;
+}
+
+.card-testimonial:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.card-testimonial:active,
+.card-testimonial:focus{
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.card-portfolio {
+  transition: all 0.3s ease;
+}
+
+.card-portfolio:hover{
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.card-portfolio:active,
+.card-portfolio:active {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.footer-social a {
+  text-decoration: none;
+}
+
+.footer-social img {
+  display: inline-block;
+}
+
+.list-blog-link {
+  text-decoration: none;
+  color: gray;
+}
+
+.list-blog {
+  width: 320px;
+  border-radius: 5px;
+}
+
+.sub-title {
+  margin-left: 40px;
+}
+
+.sub-paragraph {
+  margin-left: 40px;
+  font-size: 14px;
+}
+
+.navbar-nav .nav-link {
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0%;
+  height: 2px;
+  background-color: #ffc107;
+  transition: width 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover::after {
+  width: 100%;
+}
