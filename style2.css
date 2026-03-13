@@ -229,3 +229,11 @@ body {
 .product-content{
     flex:1;
 }
+
+.product-group {
+  display: none;
+}
+
+.product-group.active {
+  display: block;
+}
