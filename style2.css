@@ -133,3 +133,99 @@ body {
 .footer-social a {
   text-decoration: none;
 }
+
+/* SECTION SIDEBAR */
+.sidebar-category-product{
+    padding:20px 20px 20px 0;
+    width:280px;
+    flex-shrink:0;
+}
+
+/* BOX SIDEBAR */
+.sidebar-category{
+    background:#fff;
+    border-radius:10px;
+    /* box-shadow:0 4px 15px rgba(0,0,0,0.08); */
+    padding:15px 0;
+    height:100%;
+    position:sticky;
+    top:90px;
+}
+
+/* HEADER */
+.sidebar-category-header{
+    padding:10px 20px;
+    border-bottom:1px solid #eee;
+}
+
+.sidebar-category-header h6{
+    margin:0;
+    font-weight:600;
+}
+
+/* MENU LIST */
+.sidebar-menu-category{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+/* ITEM */
+.sidebar-menu-category li{
+    border-bottom:1px solid #f3f3f3;
+}
+
+/* LINK */
+.sidebar-menu-category li a{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    padding:12px 20px;
+    text-decoration:none;
+    color:#333;
+    font-size:14px;
+    transition:all 0.3s ease;
+}
+
+/* ICON */
+.sidebar-menu-category li a i{
+    font-size:12px;
+    transition:transform 0.3s ease;
+}
+
+/* HOVER EFFECT */
+.sidebar-menu-category li a:hover{
+    background:#f8f8f8;
+    color:#de9204;
+}
+
+/* ICON MOVE WHEN HOVER */
+.sidebar-menu-category li a:hover i{
+    transform:translateX(4px);
+}
+
+/* SCROLLBAR STYLE */
+.sidebar-category::-webkit-scrollbar{
+    width:6px;
+}
+
+.sidebar-category::-webkit-scrollbar-thumb{
+    background:#ddd;
+    border-radius:5px;
+}
+
+.sidebar-category::-webkit-scrollbar-thumb:hover{
+    background:#bbb;
+}
+
+.product-section{
+    display:flex;
+    gap:30px;
+    padding:20px 20px 20px 0; /* kiri 0 agar menempel */
+    align-items:flex-start;
+}
+
+/* area produk */
+.product-content{
+    flex:1;
+}
