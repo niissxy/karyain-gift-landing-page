@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
-<script src="script.js"></script>
+
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm">
     <div class="container">
@@ -168,12 +168,12 @@
             <li><a href="#product" data-category="penFlashDrive"> <i class="bi bi-chevron-right"></i> Pen Flash Drive </a></li>
             <li><a href="#product" data-category="rubberFlashDrive"> <i class="bi bi-chevron-right"></i> Rubber Flash Drive </a></li>
             <li><a href="#product" data-category="bluetoothSpeaker"> <i class="bi bi-chevron-right"></i> Bluetooth Speaker </a></li>
-            <li><a href="#product" data-category="bluetoothHeadset"> <i class="bi bi-chevron-right"></i> Bluetooh Headset </a></li>
+            <li><a href="#product" data-category="bluetoothHeadset"> <i class="bi bi-chevron-right"></i> Bluetooth Headset </a></li>
             <li><a href="#product" data-category="accesorriesCustom"> <i class="bi bi-chevron-right"></i> Accesorries Custom </a></li>
             <li><a href="#product" data-category="packaging"> <i class="bi bi-chevron-right"></i> Packaging </a></li>
             <li><a href="#product" data-category="aluminiumBottle"> <i class="bi bi-chevron-right"></i> ALuminium Bottle </a></li>
             <li><a href="#product" data-category="officeCup"> <i class="bi bi-chevron-right"></i> Office Cup </a></li>
-            <li><a href="#product" data-category="foodAccesorries"> <i class="bi bi-chevron-right"></i> Food & Beverage Accesorries </a></li>
+            <li><a href="#product" data-category="strawPackBottle"> <i class="bi bi-chevron-right"></i> Straw Pack Bottle </a></li>
             <li><a href="#product" data-category="shirtCustom"> <i class="bi bi-chevron-right"></i> Shirt Custom </a></li>
             <li><a href="#product" data-category="outerwear"> <i class="bi bi-chevron-right"></i> Outerwear </a></li>
             <li><a href="#product" data-category="headwearCustom"> <i class="bi bi-chevron-right"></i> Headwear Custom </a></li>
@@ -193,7 +193,7 @@
 
 <section class="product-content">
     <!-- PEN FLASH DRIVE -->
-    <div class="product-group penFlashDrive" id="penFlashDrive">
+    <div class="product-group penFlashDrive active" id="penFlashDrive">
         <div class="container container-penflash">
             <h5 class="text-center fw-bold">PEN FLASH DRIVE</h5>
             <div class="row mt-3 g-4">
@@ -298,7 +298,6 @@
     <div class="product-group rubberFlashDrive" id="rubberFlashDrive">
         <div class="container container-rubberflash">
             <!-- <h6 class="text-center">RUBBER FLASH DRIVE</h6> -->
-        </div>
 
         <div class="row mt-3 g-4">
             <div class="col-md-6 order-1 order-md-2">
@@ -479,25 +478,26 @@
             <div class="col-md-4">
                 <div class="card card-product h-100 border-0 shadow-sm">
 
-                <div class="card-body pb-2">
-                    <h5 class="card-title text-start mb-0"><b>WYLDTECH</b></h5>
-                </div>
-
-                <div class="d-flex justify-content-center">
-                    <img src="img/wyldtech.png" class="img-fluid" alt="Wyldtech" style="width: 250px;">
-                </div>
-
-                <div class="card-body pt-2">
-                    <div class="card-text text-start">
-                        <p class="mb-0">Kapasitas : 4, 8, 16, 32 GB</p>
-                        <p class="mb-0">Ukuran : 60 x 30 x 10 mm</p>
-                        <p class="mb-0">Bahan : Kayu</p>
-                        <p class="mb-0">Warna : Cokelat Tua</p>
-                        <p class="mb-0">Logo : Digital Printing, Laser Engraving (Ukir Laser)</p>
-                        <p class="mb-0">Garansi : Seumur Hidup</p>
+                    <div class="card-body pb-2">
+                        <h5 class="card-title text-start mb-0"><b>WYLDTECH</b></h5>
                     </div>
-                </div>
 
+                    <div class="d-flex justify-content-center">
+                        <img src="img/wyldtech.png" class="img-fluid" alt="Wyldtech" style="width: 250px;">
+                    </div>
+
+                    <div class="card-body pt-2">
+                        <div class="card-text text-start">
+                            <p class="mb-0">Kapasitas : 4, 8, 16, 32 GB</p>
+                            <p class="mb-0">Ukuran : 60 x 30 x 10 mm</p>
+                            <p class="mb-0">Bahan : Kayu</p>
+                            <p class="mb-0">Warna : Cokelat Tua</p>
+                            <p class="mb-0">Logo : Digital Printing, Laser Engraving (Ukir Laser)</p>
+                            <p class="mb-0">Garansi : Seumur Hidup</p>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
 
@@ -695,11 +695,125 @@
             </div>
         </div>
     </div>
+</div>
 
     <!-- BLUETOOTH SPEAKER -->
     <div class="product-group bluetoothSpeaker" id="bluetoothSpeaker">
         <div class="container container-bluetoothspeaker">
-            <h6 class="text-center">BLUETOOTH SPEAKER</h6>
+            <div class="row mt-3 g-4">
+                <div class="col-md-6 order-1 order-md-1 bg-light-subtle">
+                    <div class="card h-100 border-0">
+                        <div class="card-body d-flex align-items-center justify-content-center">
+                            <h5 class="card-body-title text-center py-2 m-0 fw-bold" id="bluetooth-speaker-section">
+                                BLUETOOTH SPEAKER
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 order-2 order-md-2">
+                    <div class="card card-product h-100 border-0 shadow-sm">
+                        <div class="row g-0">
+                            <div class="col-4 col-md-4 d-flex align-items-center justify-content-center">
+                                <img src="img/beat.png" class="img-fluid" alt="Beat" style="width: 250px;">
+                            </div>
+                            <div class="col-6 col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title text-start"><b>BEAT</b></h5>
+                                    <div class="card-text text-start">
+                                        <p class="mb-0">Ukuran : Diameter 80 mm</p>
+                                        <p class="mb-0">Bahan : Plastik</p>
+                                        <p class="mb-0">Baterai : 400 mAh</p>
+                                        <p class="mb-0">Durasi : 2-3 Jam</p>
+                                        <p class="mb-0">Warna : Putih</p>
+                                        <p class="mb-0">Logo : Screen Printing (Sablon)</p>
+                                        <p class="mb-0">Garansi : 1 Tahun</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-3 g-4">
+                <div class="col-md-4">
+                    <div class="card card-product h-100 border-0 shadow-sm">
+
+                        <div class="card-body pb-2">
+                            <h5 class="card-title text-start mb-0"><b>BLISS</b></h5>
+                        </div>
+
+                        <div class="d-flex justify-content-center">
+                            <img src="img/bliss.png" class="img-fluid align-center" alt="Bliss" style="width: 250px;">
+                        </div>
+
+                        <div class="card-body pt-2">
+                            <div class="card-text text-start">
+                                <p class="mb-0">Ukuran : 59 x 59 x 49 mm</p>
+                                <p class="mb-0">Bahan : Plastik</p>
+                                <p class="mb-0">Baterai : 300 mAh</p>
+                                <p class="mb-0">Durasi : 2-3 Jam</p>
+                                <p class="mb-0">Warna : Silver, Gold, Hitam</p>
+                                <p class="mb-0">Logo : Screen Printing (Sablon), Laser Engraving (Ukir Laser), Digital Printing</p>
+                                <p class="mb-0">Garansi : 1 Tahun</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card card-product h-100 border-0 shadow-sm">
+
+                        <div class="card-body pb-2">
+                            <h5 class="card-title text-start mb-0"><b>BOLT</b></h5>
+                        </div>
+
+                        <div class="d-flex justify-content-center">
+                            <img src="img/bolt.png" class="img-fluid align-center" alt="Bolt" style="width: 250px;">
+                        </div>
+
+                        <div class="card-body pt-2">
+                            <div class="card-text text-start">
+                                <p class="mb-0">Ukuran : 123 x 62 mm</p>
+                                <p class="mb-0">Bahan : Plastik</p>
+                                <p class="mb-0">Baterai : 600 mAh</p>
+                                <p class="mb-0">Durasi : 2-3 Jam</p>
+                                <p class="mb-0">Warna : Hitam, Putih</p>
+                                <p class="mb-0">Logo : Screen Printing (Sablon), Digital Printing</p>
+                                <p class="mb-0">Garansi : 1 Tahun</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card card-product h-100 border-0 shadow-sm">
+
+                        <div class="card-body pb-2">
+                            <h5 class="card-title text-start mb-0"><b>BASSBUD</b></h5>
+                        </div>
+
+                        <div class="d-flex justify-content-center">
+                            <img src="img/bassbud.png" class="img-fluid align-center" alt="Bassbud" style="width: 250px;">
+                        </div>
+
+                        <div class="card-body pt-2">
+                            <div class="card-text text-start">
+                                <p class="mb-0">Ukuran : 140 x 70 x 47 mm</p>
+                                <p class="mb-0">Bahan : Plastik</p>
+                                <p class="mb-0">Baterai : 1200 mAh 3,7V</p>
+                                <p class="mb-0">Durasi : 2-3 Jam</p>
+                                <p class="mb-0">Warna : Putih</p>
+                                <p class="mb-0">Logo : Screen Printing (Sablon), Digital Printing</p>
+                                <p class="mb-0">Garansi : 1 Tahun</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -732,9 +846,16 @@
     </div>
 
     <!-- OFFICE CUP -->
-    <div class="product-group foodAccesorries" id="foodAccesorries">
-        <div class="container container-foodaccesorries">
-            <h6 class="text-center">FOOD & BEVERAGE ACCESORRIES</h6>
+    <div class="product-group officeCup" id="officeCup">
+        <div class="container container-officecup">
+            <h6 class="text-center">Office Cup</h6>
+        </div>
+    </div>
+
+    <!-- STRAW PACK BOTTLE -->
+    <div class="product-group strawPackBottle" id="strawPackBottle">
+        <div class="container container-strawpackbottle">
+            <h5 class="text-center">STRAW PACK BOTTLE</h5>
         </div>
     </div>
 
@@ -832,31 +953,36 @@
 
 </section>
 
+<script src="script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 <script>
+document.addEventListener("DOMContentLoaded", function () {
 
-const menuCategory = document.querySelectorAll(".sidebar-menu-category a");
-const productGroup = document.querySelectorAll(".product-group");
+  const sidebarLinks = document.querySelectorAll(".sidebar-menu-category a, .dropdown-menu-custom a");
+  const productGroups = document.querySelectorAll(".product-group");
 
-menuCategory.forEach(menu => {
+  sidebarLinks.forEach(link => {
+    link.addEventListener("click", function (e) {
+      e.preventDefault();
 
-    menu.addEventListener("click", function(e){
-        e.preventDefault();
+      const category = this.getAttribute("data-category");
 
-        const category = this.getAttribute("data-category");
+      productGroups.forEach(group => {
+        group.classList.remove("active");
+      });
 
-        productGroup.forEach(product=>{
-            product.classList.remove("active");
+      const target = document.querySelector("." + category);
+      if (target) {
+        target.classList.add("active");
+      }
 
-            if(product.classList.contains(category)){
-                product.classList.add("active");
-            }
-        });
-
+      // scroll ke section produk
+      document.getElementById("product").scrollIntoView({ behavior: "smooth" });
     });
+  });
 
 });
-
 </script>
+
 
 </body>
