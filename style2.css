@@ -257,3 +257,32 @@ body {
 .product-card .card-body{
   flex-grow:1;
 }
+
+.lunchbox {
+  position: relative;
+  overflow: visible;
+}
+
+/* IMAGE */
+.lunchbox-img {
+  position: absolute;
+  right: -10px;        /* lebih dekat ke teks */
+  top: 50%;
+  transform: translateY(-50%);
+  height: 450px;
+  max-height: 560px;
+  object-fit: contain;
+  z-index: 2;
+}
+
+
+.center-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+  max-width: 180px;
+
+  z-index: 2;
+}
