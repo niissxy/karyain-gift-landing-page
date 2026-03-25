@@ -286,3 +286,39 @@ body {
 
   z-index: 2;
 }
+
+.product-image-functional {
+    width: 480px;
+    margin-top: 150px;
+  }
+
+  .product-card {
+  position: relative;
+  min-height: 360px;   /* tinggi section tetap */
+  overflow: visible;   /* supaya gambar tidak terpotong */
+}
+
+.product-image {
+  position: absolute;
+  left: -350px;
+  bottom: -220px;
+  max-height: 1000px;
+  height: 500px;
+
+  object-fit: contain;
+  z-index: 5;
+
+  transform: rotate(30deg);
+  transform-origin: bottom right;
+}
+
+.product-title {
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.product-sub {
+    font-size: 12px;
+    opacity: 0.9;
+}
