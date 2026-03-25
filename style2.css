@@ -322,3 +322,14 @@ body {
     font-size: 12px;
     opacity: 0.9;
 }
+
+.product-section-pen{
+    min-height: 350px;
+    display: flex;
+    align-items: center;
+}
+
+.product-image-pen{
+    max-height: 220px;
+    object-fit: contain;
+}
