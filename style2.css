@@ -395,7 +395,12 @@ body {
     position: static;
     padding-right: 20px;
     width: 275px;
-    
+  }
+
+  .product-section-pen{
+    position: static;
+    padding-right: 20px;
+    width: 275px;
   }
 
   .mb-100{
