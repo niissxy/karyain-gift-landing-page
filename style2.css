@@ -271,7 +271,7 @@ body {
 /* IMAGE */
 .lunchbox-img {
   position: absolute;
-  right: -10px;        /* lebih dekat ke teks */
+  right: -30px;        /* lebih dekat ke teks */
   top: 50%;
   transform: translateY(-50%);
   height: 450px;
