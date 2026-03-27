@@ -369,13 +369,13 @@ body {
   }
 
   .functional-text{
-    position: static; /* 🔥 hilangkan absolute */
+    position: static;
     text-align: center;
     padding: 15px;
   }
 
   .product-title{
-    font-size: 28px; /* 🔥 kecilkan */
+    font-size: 28px;
     line-height: 1.2;
   }
 
