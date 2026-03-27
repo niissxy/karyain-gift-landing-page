@@ -157,6 +157,10 @@ body {
 .sidebar-category-header{
   padding:10px 20px;
   border-bottom:1px solid #eee;
+   position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 10;
 }
 
 .sidebar-category-header h6{
