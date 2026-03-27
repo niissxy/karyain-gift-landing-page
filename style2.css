@@ -147,9 +147,10 @@ body {
   border-radius:10px;
   /* box-shadow:0 4px 15px rgba(0,0,0,0.08); */
   padding:15px 0;
-  height:100%;
+  height:100vh;
   position:sticky;
   top:90px;
+  overflow-y: auto;
 }
 
 /* HEADER */
@@ -332,4 +333,34 @@ body {
 .product-image-pen{
     max-height: 220px;
     object-fit: contain;
+}
+
+#toggleCategory i{
+  font-size: 18px;
+}
+
+#product{
+  scroll-margin-top: 80px;
+}
+
+@media (max-width: 768px){
+  .product-section{
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .sidebar-category{
+    position: fixed;
+    top: 0;
+    left: -100%; /* sembunyi */
+    width: 250px;
+    height: 100%;
+    background: #fff;
+    z-index: 2000;
+    transition: 0.3s;
+  }
+
+  .sidebar-category.show{
+    left: 0; /* muncul */
+  }
 }
