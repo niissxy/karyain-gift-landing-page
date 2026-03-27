@@ -5,7 +5,7 @@ html {
 
 body {
   font-family: 'Montserrat', sans-serif;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 
 /* NAVBAR */
@@ -366,5 +366,39 @@ body {
 
   .sidebar-category.show{
     left: 0; /* muncul */
+  }
+
+  .functional-text{
+    position: static; /* 🔥 hilangkan absolute */
+    text-align: center;
+    padding: 15px;
+  }
+
+  .product-title{
+    font-size: 28px; /* 🔥 kecilkan */
+    line-height: 1.2;
+  }
+
+  .product-sub{
+    font-size: 14px;
+  }
+
+  .product-image-functional{
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 150px;
+  }
+
+  .functional-products-section{
+    position: static;
+    padding-right: 20px;
+    width: 275px;
+    
+  }
+
+  .mb-100{
+    margin-bottom: 20px !important;
   }
 }
