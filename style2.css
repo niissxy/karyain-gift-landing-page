@@ -347,6 +347,11 @@ body {
   scroll-margin-top: 80px;
 }
 
+.row{
+  margin-left: 0;
+  margin-right: 0;
+}
+
 @media (max-width: 768px){
   .product-section{
     flex-direction: column;
@@ -405,5 +410,10 @@ body {
 
   .mb-100{
     margin-bottom: 20px !important;
+  }
+
+  .card-product{
+    width: 100%;
+    margin: 0 auto;
   }
 }
