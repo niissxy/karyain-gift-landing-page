@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Karyain Gift</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<script src="script.js"></script>
+<body>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm">
+    <div class="container">
+        <!-- LOGO -->
+        <a class="navbar-brand" href="index.html">
+            <img src="img/logo.png" alt="Karyain Gift" width="50">
+        </a>
+
+        <!-- TOGGLER (WAJIB) -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNav" aria-controls="navbarNav"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- MENU -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item" style="margin-right: 30px;">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown-custom" style="margin-right: 30px;"> 
+                    <a class="nav-link active" aria-current="page" href="#produk">Category Product
+                        <i class="bi bi-chevron-down text-dark"></i>
+                    </a>
+                    <ul class="dropdown-menu-custom">
+                        <li>
+                            <a class="dropdown-item" href="product.html?kategori=penFlashDrive">
+                                <i class="bi bi-chevron-right text-dark"></i>
+                                Pen Flash Drive
+                            </a>
+
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="product.html?kategori=rubberFlashDrive">
+                                <i class="bi bi-chevron-right text-dark"></i>
+                                Rubber Flash Drive
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="product.html?kategori=bluetoothSpeaker">
+                                <i class="bi bi-chevron-right text-dark"></i>
+                                Bluetooth Speaker
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="product.html?kategori=bluetoothHeadset">
+                                <i class="bi bi-chevron-right text-dark"></i>
+                                Bluetooth Headset
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="product.html?kategori=accesorriesCustom">
+                                <i class="bi bi-chevron-right text-dark"></i>
+                                Accesorries Custom
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="product.html?kategori=packaging">
+                                <i class="bi bi-chevron-right text-dark"></i>
+                                Packaging Custom
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="product.html?kategori=aluminiumBottle">
+                                <i class="bi bi-chevron-right text-dark"></i>
+                                Aluminium Bottle
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="product.html?kategori=officeCup">
+                                <i class="bi bi-chevron-right text-dark"></i>
+                                Office Cup
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="product.html#product"><i class="bi bi-chevron-right text-dark"></i>
+                                See More Product
+                            </a>
+                        </li>
+                        <!-- <li>
+                            <a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-dark"></i>
+                                Shirt Custom
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-dark"></i>
+                                Outerwear
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-dark"></i>
+                                Headwear Custom
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-dark"></i>
+                                Holder Custom
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-dark"></i>
+                                Functional Souvenir
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-dark"></i>
+                                Plastic Pen
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-dark"></i>
+                                Metal Pen
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-dark"></i>
+                                Umbrella
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-dark"></i>
+                                Clock
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-dark"></i>
+                                ID Card Custom
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-dark"></i>
+                                Pin & Keychain Custom
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-dark"></i>
+                                Print Products
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-dark"></i>
+                                Slipper Products
+                            </a>
+                        </li> -->
+                    </ul>
+                </li>
+                <li class="nav-item" style="margin-right: 30px;">
+                    <a class="nav-link active" aria-current="page" href="about.html">About Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+
+  <!-- indicator -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+    <!-- <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button> -->
+  </div>
+
+  <div class="carousel-inner" style="background-color: rgb(179, 173, 163);">
+
+    <!-- SLIDE 1 -->
+    <div class="carousel-item active hero-slide">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row align-items-center min-h-100">
+          <div class="col-md-6 col-12 text-white">
+            <!-- konten slide 1 -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE 2 -->
+    <div class="carousel-item">
+      <div class="slide-wrapper slide-2">
+        <!-- <div class="container">
+          <div class="row align-items-center">
+
+            <div class="col-md-6 col-12">
+              <h1 class="fw-bold title-anim">
+                <span class="text-warning">ID CARD </span> CUSTOM
+              </h1>
+              <p class="text-muted mt-3 desc-anim">
+                Tampilkan identitas lebih profesional dengan ID Card Custom.
+                Kami menyediakan ID card dengan desain sesuai kebutuhan, cocok untuk kantor, event, maupun komunitas.
+              </p>
+              <p class="fw-bold mt-3 desc-anim">
+                Desain custom sesuai brand, material kuat & tahan lama.
+              </p>
+              <a href="product.html?kategori=idCardCustom" class="btn btn-warning btn-anim">SEE MORE</a>
+            </div>
+
+            <div class="col-md-6 col-12 text-center mt-3 mt-md-0">
+              <img src="img/id-card.png" class="img-fluid" style="width: 173px;">
+            </div>
+
+          </div>
+        </div> -->
+      </div>
+    </div>
+
+    <!-- SLIDE 3 -->
+    <!-- <div class="carousel-item">
+      <div class="slide-wrapper slide-3">
+        <div class="container">
+          <div class="row align-items-center">
+
+            <div class="col-md-6 col-12">
+              <h1 class="fw-bold title-anim">
+                <span class="text-warning">PACKAGING</span> PRODUCT
+              </h1>
+              <p class="text-muted mt-3 desc-anim">
+                Tingkatkan nilai produk kamu dengan Packaging custom yang berkualitas.
+                Kami menyediakan berbagai jenis kemasan dengan desain yang bisa disesuaikan dengan kebutuhan brand.
+              </p>
+              <p class="fw-bold mt-3 desc-anim">
+                Bahan kuat & berkualitas, desain custom sesuai brand, cocok untuk produk & souvenir.
+              </p>
+              <a href="product.html?kategori=packaging" class="btn btn-warning btn-anim">SEE MORE</a>
+            </div>
+
+            <div class="col-md-6 col-12 text-center">
+              <img src="img/Box2.png" class="img-fluid" style="width: 395px;">
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+  </div>
+</div>
+
+<section class="client">
+    <div class="container container-client mt-5">
+        <div class="client-body text-center">
+            <h4 class="client-title fw-bold">Klien Kami</h4>
+            <p class="client-desc">Kami bangga telah bekerja sama dengan berbagai perusahaan, merek, dan event untuk menciptakan oleh-oleh personal dan merchandise eksklusif yang meninggalkan kesan mendalam. 
+                Dipercaya oleh banyak merek, kami membantu mengubah ide menjadi kenang-kenangan yang berkesan melalui kualitas pengerjaan yang tinggi dan desain kreatif.</p>
+        </div>
+        
+        <div class="row row-cols-5 row-cols-md-5 g-1 text-center">
+            <div class="col d-flex align-items-center justify-content-center">
+                <img src="img/logo_pln.png" class="logo-pln img-fluid" alt="pln" style="width: 100px;">
+            </div>
+
+            <div class="col d-flex align-items-center justify-content-center">
+                <img src="img/logo_bri.png" class="logo-bri img-fluid" alt="bri" style="width: 100px;">
+            </div>
+
+            <div class="col d-flex align-items-center justify-content-center">
+                <img src="img/logo_bsi.png" class="logo-bsi img-fluid" alt="bsi" style="width: 100px;">
+            </div>
+
+            <div class="col d-flex align-items-center justify-content-center">
+                <img src="img/logo_mandiri.png" class="logo-mandiri img-fluid" alt="mandiri" style="width: 100px;">
+            </div>
+
+            <div class="col d-flex align-items-center justify-content-center">
+                <img src="img/logo_bi.png" class="logo-bi img-fluid" alt="bi" style="width: 100px;">
+            </div>
+        </div>
+
+        <div class="row row-cols-5 row-cols-md-5 g-01 text-center" style="margin-top: 5px;">
+
+            <div class="col d-flex align-items-center justify-content-center">
+                <img src="img/logo_pos.png" class="logo-pos img-fluid" alt="pos" style="width: 70px;">
+            </div>
+
+            <div class="col d-flex align-items-center justify-content-center">
+                <img src="img/logo_kai.png" class="logo-kai img-fluid" alt="kai" style="width: 80px;">
+            </div>
+
+            <div class="col d-flex align-items-center justify-content-center">
+                <img src="img/logo_flip.png" class="logo-flip img-fluid" alt="flip" style="width: 100px;">
+            </div>
+
+            <div class="col d-flex align-items-center justify-content-center">
+                <img src="img/logo_bumn.png" class="logo-bumn img-fluid" alt="bumn" style="width: 100px;">
+            </div>
+
+            <div class="col d-flex align-items-center justify-content-center">
+                <img src="img/logo_pesta_wirausaha.png" class="logo-pw img-fluid" alt="pesta wirausaha" style="width: 100px;">
+            </div>
+        </div>
+
+        <div class="row row-cols-5 row-cols-md-5 g-1 text-center" style="margin-top: 5px;">
+
+            <div class="col d-flex align-items-center justify-content-center">
+                <img src="img/logo_umb.png" class="logo-umb img-fluid" alt="umb" style="width: 110px;">
+            </div>
+
+            <div class="col d-flex align-items-center justify-content-center">
+                <img src="img/logo_hino.png" class="logo-hino img-fluid" alt="hino" style="width: 100px;">
+            </div>
+
+            <div class="col d-flex align-items-center justify-content-center">
+                <img src="img/logo_bsla.png" class="logo-bsla img-fluid" alt="bsla" style="width: 100px;">
+            </div>
+
+            <div class="col d-flex align-items-center justify-content-center">
+                <img src="img/logo_honda.png" class="logo-honda img-fluid" alt="honda" style="width: 100px;">
+            </div>
+
+            <div class="col d-flex align-items-center justify-content-center">
+                <img src="img/logo_polban.png" class="logo-polban img-fluid" alt="polban" style="width: 50px;">
+            </div>
+        </div>
+
+        <div class="row row-cols-5 row-cols-md-5 g-1 text-center" style="margin-top: 5px;">
+
+            <div class="col d-flex align-items-center justify-content-center">
+                <img src="img/logo_ut.png" class="logo-ut img-fluid" alt="ut" style="width: 80px;">
+            </div>
+
+            <div class="col d-flex align-items-center justify-content-center">
+                <img src="img/logo_unpad.png" class="logo-unpad img-fluid" alt="unpad" style="width: 60px;">
+            </div>
+
+            <div class="col d-flex align-items-center justify-content-center">
+                <img src="img/logo_binus.png" class="logo-binus img-fluid" alt="binus" style="width: 100px;">
+            </div>
+
+            <div class="col d-flex align-items-center justify-content-center">
+                <img src="img/logo_itb.png" class="logo-itb img-fluid" alt="itb" style="width: 60px;">
+            </div>
+
+            <div class="col d-flex align-items-center justify-content-center">
+                <img src="img/logo_its.png" class="logo-its img-fluid" alt="its" style="width: 100px;">
+            </div>
+        </div>
+
+        <div class="row row-cols-5 row-cols-md-5 g-0 text-center" style="margin-top: 5px;">
+
+            <div class="col d-flex align-items-center justify-content-center">
+                <img src="img/logo_uin.png" class="logo-uin img-fluid" alt="uin" style="width: 60px;">
+            </div>
+
+            <div class="col d-flex align-items-center justify-content-center">
+                <img src="img/logo_bhakti_kencana.png" class="logo-bk img-fluid" alt="bhakti kencana university" style="width: 150px;">
+            </div>
+
+            <div class="col d-flex align-items-center justify-content-center">
+                <img src="img/logo_upi.png" class="logo-upi img-fluid" alt="upi" style="width: 60px;">
+            </div>
+
+            <div class="col d-flex align-items-center justify-content-center">
+                <img src="img/logo_itenas.png" class="logo-itenas img-fluid" alt="itenas" style="width: 100px;">
+            </div>
+
+            <div class="col d-flex align-items-center justify-content-center">
+                <img src="img/logo_unnes.png" class="logo-unnes img-fluid" alt="unnes" style="width: 60px; margin-top: 15px;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="product-home">
+    <h4 class="product-home-title mt-5 text-center fw-bold">See Our Product</h4>
+    <div class="container container-product-home mt-5">
+        <div class="row">
+            <div class="col-md-4 d-flex align-items-center justify-content-center">
+                <div class="card-product-home align-items-center border-0">
+                    <div class="img-box">
+                        <img src="img/lanyard.png" alt="product1">
+                    </div>
+                    <h5 class="fw-bold text-center">ACCESORRIES CUSTOM</h5>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex align-items-center justify-content-center">
+                <div class="card-product-home align-items-center border-0">
+                    <div class="img-box">
+                        <img src="img/evergreen.png" alt="product2">
+                    </div>
+                    <h5 class="fw-bold text-center">HOLDER CUSTOM</h5>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex align-items-center justify-content-center">
+                <div class="card-product-home border-0">
+                    <div class="img-box">
+                        <img src="img/pulpen 3.png" alt="product3">
+                    </div>
+                    
+                    <h5 class="fw-bold text-center">PEN CUSTOM</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-md-4 d-flex align-items-center justify-content-center">
+                <div class="card-product-home border-0">
+                    <div class="img-box">
+                        <img src="img/Box2.png" alt="product4">
+                    </div>
+                    
+                    <h5 class="fw-bold text-center">PACKAGING CUSTOM</h5>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex align-items-center justify-content-center">
+                <div class="card-product-home border-0">
+                    <div class="img-box">
+                        <img src="img/student_card.png" alt="product5">
+                    </div>
+
+                    <h5 class="fw-bold text-center">ID CARD CUSTOM</h5>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex align-items-center justify-content-center">
+                <div class="card-product-home border-0">
+                    <div class="img-box">
+                        <img src="img/banner.png" alt="product6">
+                    </div>
+                    
+                    <div class="align-items-center">
+                        <h5 class="fw-bold text-center">PRINT PRODUCT</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-md-12 d-flex align-items-center justify-content-center">
+                <a href="product.html" class="btn-product" style="color: black; text-decoration: none;">
+                    <h6>See all product <i class="bi bi-chevron-right"></i> </h6>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="why-section">
+    <h4 class="why-section-title mt-5 text-center fw-bold">Kenapa Karyain?</h4>
+    <div class="container container-why-section mt-5">
+        <div class="row mt-3 g-3">
+            <div class="col-md-6">
+                <div class="card h-30 border-0 shadow-sm card-why">
+                    <div class="d-flex justify-content-center">
+                        <i class="bi bi-palette text-primary me-2 fs-1"></i>
+                    </div>
+                    <div class="card-body pt-2">
+                        <div class="card-text text-center">
+                            <h6 class="p-why mb-0 fw-bold">Desain bisa custom sesuai kebutuhan</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card h-30 border-0 shadow-sm card-why">
+                    <div class="d-flex justify-content-center">
+                        <i class="bi bi-patch-check text-success me-2 fs-1"></i>
+                    </div>
+                    <div class="card-body pt-2">
+                        <div class="card-text text-center">
+                            <h6 class="p-why mb-0 fw-bold">Kualitas produk terjamin</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-3 g-3">
+            <div class="col-md-6">
+                <div class="card h-30 border-0 shadow-sm card-why">
+                    <div class="d-flex justify-content-center">
+                        <i class="bi bi-lightning-charge text-warning me-2 fs-1"></i>
+                    </div>
+                    <div class="card-body pt-2">
+                        <div class="card-text text-center">
+                            <h6 class="p-why mb-0 fw-bold">Layanan cepat dan responsif</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card h-30 border-0 shadow-sm card-why">
+                    <div class="d-flex justify-content-center">
+                        <i class="bi bi-briefcase text-info me-2 fs-1"></i>
+                    </div>
+                    <div class="card-body pt-2">
+                        <div class="card-text text-center">
+                            <h6 class="p-why mb-0 fw-bold">Cocok untuk acara kantor, seminar, kampus, maupun personal</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="mt-5 text-start" style="background-color: rgb(224, 223, 222);">
+  <div class="container py-5 px-4">
+
+    <div class="row">
+
+      <div class="col-md-3 mb-4">
+        <!-- <h5 class="fw-bold"></h5> -->
+        <img src="img/logo.png" alt="logo footer" class="logo-footer" style="width: 100px;">
+        <p>Karyain adalah penyedia solusi merchandise dan souvenir kreatif yang berfokus pada kualitas, keunikan desain, dan pelayanan terbaik.</p>
+        <h5 class="fw-bold mt-3">Find Us</h5>
+        <ul class="list-unstyled mt-3 footer-social">
+          <li>
+            <a href="https://www.tiktok.com/@karyain.gift?_r=1&_t=ZS-94S6PxoFLLY">
+              <img src="img/tiktok.png" alt="tiktok" style="width: 25px; margin-right: 10px;">
+            </a>
+
+            <a href="https://www.instagram.com/karyain.gift?igsh=MWljdjMyMmc4cGgxdg==">
+              <img src="img/instagram.png" alt="instagram" style="width: 25px; margin-right: 10px;">
+            </a>
+
+            <!-- <a href="#">
+              <img src="img/youtube.png" alt="youtube" style="width: 25px; margin-right: 10px;">
+            </a> -->
+
+            <!-- <a href="https://maps.app.goo.gl/nPbMgdYco8TH2XMB6">
+              <img src="img/maps.png" alt="maps" style="width: 25px; margin-right: 10px;">
+            </a> -->
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-md-3 mb-4">
+        <h5 class="fw-bold">Lokasi</h5>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.730237657804!2d107.6868733!3d-6.922816600000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e7a60132d0d7%3A0xcfaf9cca6ca22773!2sKaryain%20Laundry%20Cinambo!5e0!3m2!1sid!2sid!4v1774846406922!5m2!1sid!2sid" 
+                        width="600" 
+                        height="450" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                    </div>
+                    <p class="mt-3">
+                        <i class="bi bi-clock me-2"></i>Hari & Jam Operasional : Senin-Sabtu, 08:00 - 17:00
+                    </p>
+                </div>
+            </div>
+        </div>
+
+      </div>
+
+      <div class="col-md-3 mb-4">
+        <h5 class="fw-bold">Karyain Gift</h5>
+        <ul class="list-unstyled mt-3" style="font-size: 13px;">
+          <li><a href="#produk" style="text-decoration: none; color: black;">Produk</a></li>
+          <!-- <li><a href="portfolio.html" style="text-decoration: none; color: black;">Portfolio</a></li> -->
+          <!-- <li><a href="testimonial.html" style="text-decoration: none; color: black;">Testimonial</a></li> -->
+        </ul>
+      </div>
+
+      <div class="col-md-3 mb-4">
+        <h5 class="fw-bold">Information</h5>
+        <ul class="list-unstyled mt-3" style="font-size: 13px;">
+          <li><a href="about.html" style="text-decoration: none; color: black;">About Us</a></li>
+          <li><a href="blog.html" style="text-decoration: none; color: black;">Blog</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <hr></hr>
+
+    <div class="col-md-12">
+      <p class="text-center" style="font-size: 14px;">Made by Karyain Group | 2026</p>
+    </div>
+
+  </div>
+</footer>
+<!-- <h2>-</h2> -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+ <script>
+ 
+ const productGroup = document.querySelectorAll(".product-group");
+
+ // ambil parameter dari URL
+ const urlParams = new URLSearchParams(window.location.search);
+ const kategori = urlParams.get("kategori");
+
+ if(kategori){
+
+    productGroup.forEach(product => {
+
+        product.classList.remove("active");
+
+        if(product.classList.contains(kategori)){
+            product.classList.add("active");
+        }
+
+    });
+
+ }
+
+</script>
+
+</body>
