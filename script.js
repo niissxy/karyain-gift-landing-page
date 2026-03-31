@@ -77,3 +77,23 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
 });
+
+const productGroup = document.querySelectorAll(".product-group");
+
+ // ambil parameter dari URL
+ const urlParams = new URLSearchParams(window.location.search);
+ const kategori = urlParams.get("kategori");
+
+ if(kategori){
+
+    productGroup.forEach(product => {
+
+        product.classList.remove("active");
+
+        if(product.classList.contains(kategori)){
+            product.classList.add("active");
+        }
+
+    });
+
+ }
