@@ -483,6 +483,22 @@ body {
   margin-right: 0;
 }
 
+.card-product {
+  transition: all 0.3s ease;
+}
+
+.card-product:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.18);
+}
+
+
+.card-product:active,
+.card-product:focus{
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
 @media (max-width: 768px){
   .product-section{
     flex-direction: column;
