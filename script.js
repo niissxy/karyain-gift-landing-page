@@ -85,8 +85,10 @@ sidebarLinks.forEach(link => {
 
     const category = this.getAttribute("data-category");
 
+    // 🔥 RESET ACTIVE
     sidebarLinks.forEach(l => l.classList.remove("active"));
 
+    // 🔥 SET ACTIVE YANG DIKLIK
     this.classList.add("active");
 
     showCategory(category);
