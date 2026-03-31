@@ -78,33 +78,3 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
 });
-
-sidebarLinks.forEach(link => {
-  link.addEventListener("click", function (e) {
-    e.preventDefault();
-
-    const category = this.getAttribute("data-category");
-
-    // 🔥 RESET ACTIVE
-    sidebarLinks.forEach(l => l.classList.remove("active"));
-
-    // 🔥 SET ACTIVE YANG DIKLIK
-    this.classList.add("active");
-
-    showCategory(category);
-
-    if (sidebar) sidebar.classList.remove("show");
-    if (overlay) overlay.classList.remove("show");
-
-    history.replaceState(null, null, "?kategori=" + category);
-
-    const productSection = document.getElementById("product");
-    const yOffset = -70;
-    const y = productSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
-
-    window.scrollTo({
-      top: y,
-      behavior: "smooth"
-    });
-  });
-});
