@@ -49,7 +49,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  // ✅ klik menu
   sidebarLinks.forEach(link => {
     link.addEventListener("click", function (e) {
       e.preventDefault();
