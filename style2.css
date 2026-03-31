@@ -17,10 +17,30 @@ body {
   z-index: 1000;
 }
 
-.hero-slide{
-  background: url('img/banner.jpg') center/cover no-repeat;
-  position: relative;
+/* Paksa semua slide sama tinggi */
+.carousel-item {
   min-height: 360px;
+  background: none; /* reset background */
+}
+
+/* Slide 1 - background image */
+.hero-slide {
+  background: url('img/banner.jpg') center/cover no-repeat !important;
+  position: relative;
+  min-height: 400px
+}
+
+.slide-2 {
+  background: url('img/section.png') center/cover no-repeat;
+  position: relative;
+  min-height: 400px;
+}
+
+/* Slide 2 & 3 - centering konten */
+.slide-wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .overlay{
@@ -526,5 +546,59 @@ body {
   .card-product{
     width: 100%;
     margin: 0 auto;
+  }
+  
+  .carousel-item {
+    height: auto !important; /* paksa override height fixed */
+    min-height: unset !important;
+  }
+
+   .slide-wrapper {
+    padding: 30px 15px;
+    overflow: visible;
+    min-height: 450px;
+  }
+
+  .slide-wrapper .row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .slide-wrapper h1 {
+    font-size: 1.5rem;
+    margin-top: 0;
+  }
+
+  .slide-wrapper p {
+    font-size: 0.9rem;
+  }
+
+  /* ID Card */
+  .slide-wrapper img[src*="id-card"] {
+    margin-top: 20px;
+    max-width: 120px !important;
+    width: 120px !important;
+  }
+
+ .slide-wrapper img[src*="Box"] {
+    margin-top: 10px;
+    max-width: 180px !important;
+    width: 180px !important;
+  }
+
+  .carousel-inner {
+    overflow: visible !important;
+  }
+
+  .carousel {
+    overflow: hidden;
+  }
+
+  .hero-slide {
+    min-height: 150px !important;
+  }
+
+  .slide-2 {
+    min-height: 150px;
   }
 }
