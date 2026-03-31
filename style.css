@@ -544,13 +544,13 @@ body {
   } */
 
   .sidebar-menu-category li a.active {
-  background: #f8f8f8;
-  color: #de9204;
-}
+    background: #f8f8f8;
+    color: #de9204;
+  }
 
-.sidebar-menu-category li a.active i {
-  transform: translateX(4px);
-}
+  .sidebar-menu-category li a.active i {
+    transform: translateX(4px);
+  }
 
   .functional-text{
     position: static;
