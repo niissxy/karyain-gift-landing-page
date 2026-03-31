@@ -489,19 +489,46 @@ body {
     gap: 15px;
   }
 
-  .sidebar-category{
+  .sidebar-category-product {
     position: fixed;
     top: 0;
-    left: -100%; /* sembunyi */
-    width: 250px;
+    left: -100%;
     height: 100%;
+    width: 260px;
     background: #fff;
-    z-index: 2000;
-    transition: 0.3s;
+    z-index: 999;
+    padding: 0;
+    transition: all 0.3s ease;
   }
 
-  .sidebar-category.show{
-    left: 0; /* muncul */
+  /* SAAT MUNCUL */
+  .sidebar-category-product.show {
+    left: 0;
+  }
+
+  /* INNER SIDEBAR */
+  .sidebar-category {
+    height: 100%;
+    border-radius: 0;
+  }
+
+  /* OVERLAY GELAP */
+  .sidebar-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+    z-index: 998;
+  }
+
+  .sidebar-overlay.show {
+    opacity: 1;
+    visibility: visible;
   }
 
   .functional-text{
