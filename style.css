@@ -532,7 +532,7 @@ body {
     visibility: visible;
   }
 
-  /* .sidebar-menu-category li a:active,
+  .sidebar-menu-category li a:active,
   .sidebar-menu-category li a:focus {
     background: #f8f8f8;
     color: #de9204;
@@ -540,15 +540,6 @@ body {
 
   .sidebar-menu-category li a:active i,
   .sidebar-menu-category li a:focus i {
-    transform: translateX(4px);
-  } */
-
-  .sidebar-menu-category li a.active {
-    background: #f8f8f8;
-    color: #de9204;
-  }
-
-  .sidebar-menu-category li a.active i {
     transform: translateX(4px);
   }
 
