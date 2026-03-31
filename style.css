@@ -532,6 +532,30 @@ body {
     visibility: visible;
   }
 
+  .sidebar-menu-category li a:hover{
+  background:#f8f8f8;
+  color:#de9204;
+}
+
+/* ICON MOVE WHEN HOVER */
+.sidebar-menu-category li a:hover i{
+  transform:translateX(4px);
+}
+
+/* SCROLLBAR STYLE */
+.sidebar-category::-webkit-scrollbar{
+  width:6px;
+}
+
+.sidebar-category::-webkit-scrollbar-thumb{
+  background:#ddd;
+  border-radius:5px;
+}
+
+.sidebar-category::-webkit-scrollbar-thumb:hover{
+  background:#bbb;
+}
+
   .functional-text{
     position: static;
     text-align: center;
