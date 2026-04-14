@@ -487,6 +487,12 @@ body {
   transition: all 0.3s ease;
 }
 
+/* .card-product img {
+    width: 100%;
+    height: 150px;      
+    object-fit: contain;
+} */
+
 .card-product:hover {
   transform: translateY(-4px);
   box-shadow: 0 15px 35px rgba(0,0,0,0.18);
