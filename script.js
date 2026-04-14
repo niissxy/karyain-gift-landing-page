@@ -27,13 +27,11 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
-  // ✅ ambil dari URL
   const urlParams = new URLSearchParams(window.location.search);
   let kategori = urlParams.get("kategori") || "penFlashDrive";
 
   showCategory(kategori);
 
-  // ✅ toggle sidebar
   if (toggleBtn) {
     toggleBtn.addEventListener("click", function () {
       sidebar.classList.toggle("show");
@@ -41,7 +39,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  // ✅ klik overlay → close
   if (overlay) {
     overlay.addEventListener("click", function () {
       sidebar.classList.remove("show");
