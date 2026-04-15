@@ -15,7 +15,15 @@ body {
   overflow: visible !important;
   position: relative;
   z-index: 1000;
+  position: sticky;
+  top: 0;
 }
+
+.navbar {
+  backdrop-filter: blur(10px);
+  background-color: rgba(255,255,255,0.8) !important;
+}
+
 
 /* Paksa semua slide sama tinggi */
 .carousel-item {
