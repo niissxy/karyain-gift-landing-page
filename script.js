@@ -104,3 +104,7 @@ const productGroup = document.querySelectorAll(".product-group");
     navbar.classList.remove("shadow");
   }
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  document.getElementById("year").textContent = new Date().getFullYear();
+});
