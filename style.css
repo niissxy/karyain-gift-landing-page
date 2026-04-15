@@ -9,21 +9,24 @@ body {
 }
 
 /* NAVBAR */
-.navbar,
-.navbar .container,
-.navbar-nav {
-  overflow: visible !important;
-  position: relative;
-  z-index: 1000;
+.navbar {
   position: sticky;
   top: 0;
-}
+  z-index: 1000;
 
-.navbar {
   backdrop-filter: blur(10px);
   background-color: rgba(255,255,255,0.8) !important;
 }
 
+.navbar .container,
+.navbar-nav {
+  overflow: visible !important;
+}
+
+/* .navbar.scrolled {
+  background-color: rgba(255,255,255,0.95) !important;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+} */
 
 /* Paksa semua slide sama tinggi */
 .carousel-item {
